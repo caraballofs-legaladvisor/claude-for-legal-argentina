@@ -10,18 +10,21 @@ El repositorio original cubre 12 plugins y más de 80 agentes. Está construido 
 
 ```
 argentina/
-  CLAUDE.md                   # Perfil de práctica general (reemplaza al original)
-  administrativo-CLAUDE.md    # Perfil para derecho administrativo
-  civil-CLAUDE.md             # Perfil para derecho civil (CCCN)
-  concursos-CLAUDE.md         # Perfil para concursos y quiebras (LCQ)
-  ejemplos-laboral.md         # Casos de liquidación resueltos con checklist de rubros
-  familia-CLAUDE.md           # Perfil para derecho de familia
-  laboral-CLAUDE.md           # Perfil para derecho del trabajo (LCT)
-  penal-CLAUDE.md             # Perfil para derecho penal
-  societario-CLAUDE.md        # Perfil para derecho societario (LGS)
-  tributario-CLAUDE.md        # Perfil para derecho tributario
-  red-flags-contratos.md      # Lista de alertas para revisión de contratos
-  fuentes.md                  # Conectores a bases de datos normativas locales
+  CLAUDE.md                          # Perfil de práctica general (reemplaza al original)
+  administrativo-CLAUDE.md           # Perfil para derecho administrativo
+  civil-CLAUDE.md                    # Perfil para derecho civil (CCCN)
+  concursos-CLAUDE.md                # Perfil para concursos y quiebras (LCQ)
+  ejemplos-laboral.md                # Casos de liquidación resueltos con checklist de rubros
+  familia-CLAUDE.md                  # Perfil para derecho de familia
+  laboral-CLAUDE.md                  # Perfil para derecho del trabajo (LCT)
+  penal-CLAUDE.md                    # Perfil para derecho penal
+  societario-CLAUDE.md               # Perfil para derecho societario (LGS)
+  tributario-CLAUDE.md               # Perfil para derecho tributario
+  alertas-normas-inestables-PARCHE.md  # Bloques de alertas de normas inestables por área ★
+  red-flags-contratos.md             # Lista de alertas para revisión de contratos
+  fuentes.md                         # Conectores a bases de datos normativas locales
+  diagnostico-SKILL.md               # Skill reutilizable de diagnóstico previo de escritos
+  setup-interview.md                 # Entrevista de configuración inicial del perfil
 ```
 
 Los plugins originales quedan intactos. Todo el material argentino vive en la carpeta `argentina/`.
@@ -44,6 +47,9 @@ Los plugins originales quedan intactos. Todo el material argentino vive en la ca
 - `privacy-legal` - habeas data bajo Ley 25.326, no GDPR/DSAR
 
 **Agrega red flags específicas del derecho argentino** para revisión automática de contratos.
+
+**Incluye un sistema de alertas de normas inestables** que marca automáticamente las áreas
+con mayor riesgo de cambio normativo posterior al entrenamiento del modelo.
 
 ---
 
@@ -87,7 +93,18 @@ Los perfiles disponibles:
 
 Cargá el perfil del área junto con el `CLAUDE.md` general en las instrucciones del Project correspondiente.
 
-### Paso 4: Plugins críticos
+### Paso 4: Parche de normas inestables
+
+Abrí `alertas-normas-inestables-PARCHE.md` e insertá el bloque correspondiente a cada área
+en el archivo `*-CLAUDE.md` de esa área, **inmediatamente antes** de la sección
+"Instrucciones operativas específicas". El archivo tiene instrucciones exactas de inserción
+para cada perfil.
+
+Este paso es opcional pero recomendado: el parche activa marcadores automáticos en las áreas
+donde el derecho argentino cambia con mayor frecuencia (topes indemnizatorios, alícuotas
+impositivas, normativa IGJ/DPPJ, locaciones urbanas, tasas de interés).
+
+### Paso 5: Plugins críticos
 
 Para los tres plugins del repo original que requieren reescritura completa de lógica, el `CLAUDE.md` argentino incluye instrucciones específicas por sección. Ver el archivo para el detalle.
 
@@ -152,6 +169,25 @@ No son necesarios para empezar. Los plugins funcionan con el perfil de práctica
 El criterio del abogado. La responsabilidad profesional. La firma.
 
 Todo output del sistema es un borrador. No sabe qué pasó en la negociación, no conoce la relación con la contraparte, no tiene el expediente completo. Acelera la parte mecánica. Las decisiones son siempre del abogado.
+
+---
+
+## Actualización del sistema
+
+El sistema tiene dos ciclos de actualización con distinta frecuencia:
+
+**Perfiles de área (`*-CLAUDE.md`):** actualizar cuando cambia un instituto central del área
+(nueva ley, reforma procesal, cambio de criterio CSJN en un tema estructural).
+Frecuencia orientativa: semestral o cuando ocurre un cambio relevante.
+
+**Parche de normas inestables (`alertas-normas-inestables-PARCHE.md`):** actualizar cuando
+cambia una norma listada como inestable (nuevo tope indemnizatorio, nueva resolución IGJ,
+reforma locaciones, etc.). El log al final del archivo registra cada cambio.
+Frecuencia orientativa: continua, según los cambios normativos.
+
+Para actualizaciones urgentes (reforma procesal, cambio de régimen tributario),
+el parche es el primer archivo a modificar porque tiene el impacto más inmediato
+en los marcadores que el sistema emite.
 
 ---
 
