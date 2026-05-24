@@ -231,6 +231,53 @@ Alertas específicas:
 - No invocar "levantamiento del velo" sin anclar el argumento en el art. 54, tercer párrafo LGS y aportar material jurisprudencial; es un instituto de uso restrictivo en la jurisprudencia argentina
 - Responsabilidad solidaria de los socios de control: verificar si hay conducta que encuadre en el art. 54
 
+### Régimen de Incentivo a las Grandes Inversiones (RIGI) - Vehículo de Proyecto Único (VPU)
+
+**Fuente:** Ley 27.742 Título VII (Cap VII), promulgada 9-jul-2024. Reglamentación: Decreto 749/2024 (BO 23-ago-2024). Vigencia formal no controvertida. La reglamentación sectorial (condiciones específicas por sector, montos mínimos, plazos de adhesión) se modifica por resoluciones del Ministerio de Economía con frecuencia; no asesorar sobre condiciones concretas sin verificar el estado reglamentario al momento de la consulta.
+
+**Naturaleza:** régimen voluntario de incentivos fiscales, aduaneros y cambiarios durante 30 años para titulares de Vehículos de Proyecto Único (VPU) en sectores admisibles.
+
+**VPU - figura con implicancias societarias directas:**
+- Objeto único: la ejecución del proyecto aprobado bajo el RIGI; no puede tener actividades ni activos ajenos al proyecto, excepto los necesarios para la administración de fondos del vehículo
+- Puede constituirse como sociedad nueva o adaptarse desde una existente (SA, SRL, SAS, sucursal, UTE, contrato asociativo) mediante los ajustes del art. 169 Ley 27.742
+- La adaptación de una sociedad existente no implica disolución ni pérdida de personería; requiere reforma de objeto y adecuación registral ante IGJ/DPPJ
+
+**Registros creados (Decreto 749/2024):**
+- Registro de Vehículos de Proyecto Único (VPU)
+- Registro de Proyectos Estratégicos Exportación Largo Plazo
+- Registro de Proveedores del Régimen de Incentivo
+
+**Sectores admisibles (art. 165 Ley 27.742):** forestal, turismo, infraestructura, minería, tecnología, siderurgia, energía, petróleo y gas.
+
+**Requisitos básicos (art. 167):**
+- Inversión en activo computable superior a USD 200 millones (con escala por sector; verificar monto mínimo para el sector específico)
+- Plan de inversión presentado al Ministerio de Economía
+- Aprobación del Comité Evaluador RIGI
+
+**Beneficios principales:**
+- Estabilidad jurídica por 30 años: no aplican normas posteriores que empeoren las condiciones del régimen
+- Tributario: Impuesto a las Ganancias reducido, IVA, deducciones aceleradas (ver cross-reference en tributario-CLAUDE.md si está disponible)
+- Cambiario: acceso al MULC con condiciones especiales, repatriación de utilidades
+- Aduanero: importación de insumos y bienes de capital sin aranceles
+- Resolución de controversias: arbitraje internacional (CIADI o UNCITRAL)
+
+Preguntas de diagnóstico:
+1. ¿La inversión proyectada supera USD 200M y se encuadra en sector admisible?
+2. ¿Se va a constituir un VPU nuevo o adaptar una sociedad existente?
+3. Si es adaptación: ¿qué tipo societario es la sociedad actual? ¿La reforma de objeto requiere mayorías especiales según el estatuto?
+4. ¿Hay otros socios o accionistas? ¿El estatuto prevé drag-along o tag-along que afecte la reestructura?
+5. ¿La operación supera los umbrales de notificación CNDC?
+
+Alertas específicas:
+- El RIGI es optativo pero excluyente: el VPU adherido queda fuera de otros regímenes de promoción; evaluar costo de oportunidad antes de recomendar la adhesión
+- La estabilidad de 30 años NO cubre derechos económicos provinciales, regalías mineras ni derechos aduaneros transitorios
+- La adaptación de sociedad existente vía art. 169 puede tener consecuencias sobre contratos vigentes con cláusulas de cambio de control: verificar antes de proceder
+- Régimen en evolución: resoluciones sectoriales del Ministerio de Economía modifican condiciones específicas por sector; no asesorar sin verificar el estado de la reglamentación sectorial al momento de la consulta
+
+```
+[VERIFICAR REGLAMENTACIÓN SECTORIAL VIGENTE: RIGI - Decreto 749/2024 y resoluciones del Ministerio de Economía para el sector específico del proyecto]
+```
+
 ---
 
 ## Responsabilidad de administradores
@@ -425,5 +472,5 @@ Alertas específicas:
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: LGS (Ley 19.550), Ley 27.349 (SAS), Ley 26.831 (Mercado de Capitales), Ley 27.442 (Defensa de la Competencia), Ley 11.867 (Fondo de Comercio)*
+*Normativa base: LGS (Ley 19.550), Ley 27.349 (SAS), Ley 26.831 (Mercado de Capitales), Ley 27.442 (Defensa de la Competencia), Ley 11.867 (Fondo de Comercio), Ley 27.742 Tít. VII (RIGI) + Dec 749/2024*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
