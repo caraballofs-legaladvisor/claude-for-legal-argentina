@@ -448,6 +448,9 @@ ante cualquier discrepancia con un conector.
 | COMARB | comarb.gov.ar | Convenio Multilateral - Ingresos Brutos |
 | TFN | jurisprudenciatfn.mecon.gob.ar | Jurisprudencia tributaria |
 | Boletín Oficial PBA | boletinoficial.gba.gob.ar | Publicaciones oficiales PBA |
+| Cuerpo Médico Forense CSJN | csjn.gov.ar/cmfcs | Informes, protocolos y estructura del CMF |
+| Protocolo de Estambul (ONU) | ohchr.org/es/publications/professional-interest/istanbul-protocol | Manual de investigación y documentación de tortura |
+| ANSES - normativa previsional | anses.gob.ar | Requisitos y normativa de invalidez previsional |
 
 ---
 

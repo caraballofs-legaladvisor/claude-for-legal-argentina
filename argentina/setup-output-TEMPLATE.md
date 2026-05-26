@@ -30,6 +30,10 @@ El sistema mapea cada pregunta de la entrevista a una variable de este template:
 | `[FUERO_ADMINISTRATIVO]` | P5-bis | El sistema pregunta fuero administrativo en cada sesión |
 | `[AREAS_ADMINISTRATIVO]` | P6-bis | El sistema opera sin prioridad de módulo administrativo |
 | `[ROL_ADMINISTRATIVO]` | P7-bis | El sistema activa módulo actor por defecto |
+| `[ORGANISMO_PERICIAL]` | P5-ter | El sistema adapta estructura del informe según rol genérico |
+| `[FUEROS_PERICIAL]` | P6-ter | El sistema pregunta fuero en cada consulta pericial |
+| `[ESPECIALIDAD_PERICIAL]` | P6-ter | El sistema opera sin prioridad de módulo por especialidad |
+| `[ORGANISMO_REQUIRENTE]` | P7-ter | El sistema pregunta tribunal requirente en cada sesión |
 | `[JURISDICCION_INSCRIPCION]` | P8 | El sistema pregunta IGJ/DPPJ en cada sesión |
 | `[OPERACIONES_SOCIETARIAS]` | P9 | El sistema opera sin prioridad de módulo societario |
 | `[TRIBUTOS_FRECUENTES]` | P10 | El sistema opera sin prioridad de módulo tributario |
@@ -83,6 +87,18 @@ Perfil específico: ver `argentina/laboral-CLAUDE.md` y `argentina/ejemplos-labo
 **Rol predominante:** [ROL_ADMINISTRATIVO]
 
 Perfil específico: ver `argentina/administrativo-CLAUDE.md`.
+
+---
+
+## Configuración medicina legal y pericia médica forense
+
+<!-- Esta sección solo aparece si medicina legal o pericia médica figura en AREAS_PRACTICA -->
+
+**Organismo o rol pericial:** [ORGANISMO_PERICIAL]
+**Fueros y especialidad:** [FUEROS_PERICIAL] / [ESPECIALIDAD_PERICIAL]
+**Organismo requirente habitual:** [ORGANISMO_REQUIRENTE]
+
+Perfil específico: ver `argentina/especialidades/medicina-legal-CLAUDE.md`.
 
 ---
 
@@ -190,7 +206,7 @@ El glosario canónico de marcadores está en `argentina/marcadores-GLOSARIO.md`.
 1. Reemplazar cada variable con la respuesta del abogado, tal como fue dada.
    No reformatear ni resumir las respuestas sin indicación.
 
-2. Las secciones de área (laboral, administrativa, societaria, tributaria) solo se incluyen
+2. Las secciones de área (laboral, administrativa, medicina legal, societaria, tributaria) solo se incluyen
    si el área figura en `[AREAS_PRACTICA]`. Si el área no fue mencionada,
    omitir la sección completa sin dejar comentarios ni marcadores.
 

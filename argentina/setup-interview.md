@@ -169,6 +169,48 @@ Impacto: el sistema activa el módulo de análisis estratégico correspondiente 
 
 ---
 
+### Bloque 2-ter - Configuración medicina legal y pericia médica forense
+
+Responder solo si medicina legal o pericia médica figura entre las áreas de práctica.
+
+---
+
+**P5-ter. Organismo o rol pericial**
+
+Opciones: Cuerpo Médico Forense CSJN / Cuerpo Médico Forense del Poder Judicial de [Provincia] / Perito de parte / Consultor técnico / Combinación.
+
+Impacto: el sistema adapta la estructura del informe y el punto de vista del análisis según el rol (perito oficial vs. perito de parte vs. consultor técnico).
+
+---
+
+**P6-ter. Fueros y especialidad principal**
+
+Indicar los fueros en que se actúa habitualmente y la especialidad médica principal.
+
+Ejemplo:
+```
+Fueros: penal (CPPN) y civil (CPCCN)
+Especialidad: medicina legal general / traumatología forense / psiquiatría forense
+```
+
+Impacto: el sistema prioriza la normativa procesal y los criterios médico-legales correspondientes al fuero y la especialidad declarados. Sin este dato, pregunta el fuero en cada consulta pericial.
+
+---
+
+**P7-ter. Organismo requirente habitual**
+
+Indicar el tribunal u organismo que requiere las pericias con mayor frecuencia.
+
+Ejemplo:
+```
+Juzgado Nacional en lo Criminal y Correccional Federal N° X
+Juzgado Nacional de Primera Instancia en lo Civil N° X
+```
+
+Impacto: el sistema aplica el baremo y los criterios de ese fuero por defecto y omite preguntar en cada sesión cuál es el tribunal requirente.
+
+---
+
 ### Bloque 3 - Configuración societaria
 
 Opciones: IGJ (CABA) / DPPJ (PBA) / ambas / otra provincia.
@@ -289,11 +331,12 @@ Al terminar de responder, el sistema genera un CLAUDE.md personalizado con:
 2. Normativa de referencia priorizada por tus áreas de práctica.
 3. Configuración laboral (si aplica): fuero, rol y CCTs cargados.
 4. Configuración administrativa (si aplica): fuero, áreas y rol (actor/demandado) cargados.
-5. Configuración societaria (si aplica): jurisdicción de inscripción y módulos activados.
-6. Configuración tributaria (si aplica): tributos y fuero de litigio.
-7. Documentos semilla referenciados (si los cargaste).
-8. Preferencias de formato registradas.
-9. Regla de diagnóstico previo configurada según tu respuesta.
+5. Configuración medicina legal (si aplica): organismo/rol pericial, fueros, especialidad y organismo requirente cargados.
+6. Configuración societaria (si aplica): jurisdicción de inscripción y módulos activados.
+7. Configuración tributaria (si aplica): tributos y fuero de litigio.
+8. Documentos semilla referenciados (si los cargaste).
+9. Preferencias de formato registradas.
+10. Regla de diagnóstico previo configurada según tu respuesta.
 
 El archivo generado reemplaza el CLAUDE.md genérico del repo. Podés editarlo
 directamente o volver a correr la entrevista para regenerarlo.

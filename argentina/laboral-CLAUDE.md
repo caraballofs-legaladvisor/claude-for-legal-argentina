@@ -448,9 +448,9 @@ Regla operativa: en toda liquidación final, verificar si se entregaron los cert
 
 **Plazo para acciones de la Ley 24.557 (LRT):** 2 años desde la determinación de la incapacidad o el fallecimiento.
 
-**Suspensión por SECLO (Ley 24.635):** desde la presentación ante el SECLO hasta 30 días después de la audiencia. En PBA: verificar si el mecanismo local suspende la prescripción.
+**Suspensión por interpelación fehaciente (art. 2541 CCCN):** suspende por seis meses, por una sola vez, desde la imposición postal. Criterio uniforme en todas las salas de la CNAT (aplicación supletoria vía art. 11 LCT, reemplazando al art. 3986 del Código de Vélez desde agosto de 2015). Solo el primer telegrama surte efecto suspensivo; los posteriores no lo renuevan. En PBA, verificar criterio de la SCBA.
 
-**Suspensión por interpelación fehaciente (art. 2541 CCyCN):** suspende por un plazo de 6 meses. Su aplicación supletoria en materia laboral es discutida: algunas salas de la CNAT la admiten; otras aplican exclusivamente el régimen de la LCT. No asumir su eficacia sin verificar el criterio de la sala sorteada. En PBA, verificar criterio de la SCBA.
+**Suspensión por SECLO (art. 7 Ley 24.635):** suspende siempre por seis meses completos aunque el trámite dure menos (Plenario CNAT N° 312). Causal autónoma y distinta del telegrama: el límite "por una sola vez" del art. 2541 CCCN no impide que el SECLO también suspenda el plazo. En PBA: verificar si el mecanismo local suspende la prescripción.
 
 Alertas específicas:
 - En créditos de tracto sucesivo (diferencias salariales mensuales): cada cuota prescribe en forma independiente desde que es exigible
@@ -570,6 +570,13 @@ Estrategia de análisis desde el empleador:
 - Prescripción: ante cualquier consulta donde el plazo pueda estar vencido o próximo a vencer, emitir antes de analizar el fondo:
   `[ALERTA PLAZO FATAL: art. 256 LCT - 2 años - desde que cada crédito fue exigible - vencimiento: calcular por rubro]`
   Verificar el plazo y la fecha de exigibilidad de cada crédito por separado. En diferencias salariales, prescripción crédito por crédito.
+
+- Suspensiones del plazo de prescripción - reglas de cómputo:
+  1. Telegrama de intimación (art. 2541 CCCN): suspende el plazo por seis meses, por única vez, desde la imposición postal. Al vencer, el plazo se reanuda desde donde estaba; los días consumidos antes no se pierden. El art. 257 LCT fija el tope del SECLO, no el del telegrama. Error frecuente: aplicar un año al telegrama por confundir ambos institutos.
+  2. SECLO (art. 7 Ley 24.635 + art. 257 LCT): suspende siempre por seis meses completos, aunque el trámite dure menos (Plenario CNAT N° 312; Moraglio, Sala V CNAT, SI N° 55476, 08/07/2024). El SECLO suspende, no interrumpe: al concluir, se reanuda el plazo aprovechando el tiempo anterior.
+  3. Verificación de superposición obligatoria: antes de sumar las suspensiones, verificar si los intervalos se solapan. Si telegrama y SECLO son sucesivos (solución de continuidad entre ambos), se computan en forma independiente. Si se superponen, se aplica regla de absorción: la extensión total es la unión de los intervalos, no la suma. Fundamento: Moraglio + doctrina de interpretación restrictiva de la prescripción. No existe fallo de sala que exprese la regla de absorción textualmente; se aplica por coherencia dogmática.
+  4. Verificar destinatarios en pluralidad de demandados: si hay responsabilidad solidaria (ej. art. 30 LCT), verificar que el telegrama fue dirigido a todos los demandados. La suspensión del art. 2541 CCCN opera solo respecto del destinatario.
+
 - No citar montos de prestaciones de la LRT, topes del art. 245, ni salarios convencionales sin marcador de verificación: se actualizan con frecuencia.
 - No citar tasa de interés sin identificar la sala sorteada y verificar su criterio vigente: no existe acta unificada desde el Acta CNAT 2788/2024. Cada sala aplica su propio criterio. Usar siempre: `[VERIFICAR TASA VIGENTE: sin acta unificada - criterio según sala sorteada - verificar jurisprudencia reciente de la sala]`
 - Ante cualquier cuestión sobre período de prueba, régimen de extinción o negociación colectiva: agregar alerta de verificación post-DNU 70/2023 y Ley 27.742.

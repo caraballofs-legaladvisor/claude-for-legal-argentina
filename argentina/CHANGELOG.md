@@ -28,6 +28,24 @@ No esperar a la revisión periódica.
 
 ## 2026
 
+### Mayo 2026 - Incorporación perfil medicina legal y pericia médica forense
+
+**Archivos nuevos:**
+- `argentina/especialidades/medicina-legal-CLAUDE.md` - perfil de disciplina auxiliar para redacción y análisis de informes médico-legales periciales; cubre los fueros penal (CPPN y CPPF), civil (CPCCN) y seguridad social (Ley 24.655); adaptable a fueros provinciales con ajuste de normativa procesal local; incluye estructura estándar del informe médico-legal, lógica de análisis por institución (lesiones, imputabilidad, incapacidad, invalidez, praxis médica, amparo de salud, casos federales especiales), checklist de cierre y reglas de citación propias; colaboración técnica: Dr. Alberto Miceli - Médico Forense
+
+**Archivos modificados:**
+- `argentina/README.md` - agregada subcarpeta `especialidades/` en la tabla de estructura; agregado bloque "Medicina legal y pericia médica forense" en la sección "Lo que podés hacer desde el día uno"; agregada fila `especialidades/medicina-legal-CLAUDE.md` en tabla "Perfiles por área"; agregada fila correspondiente en tabla "Alertas de normas inestables"
+- `argentina/CLAUDE.md` - estructura del repo sincronizada con README (agregados `administrativo-caba-CLAUDE.md`, `administrativo-PBA-CLAUDE.md`, `administrativo-SALTA-CLAUDE.md`, `especialidades/`, `legal.local.md.template`, `evals/`; descripción `administrativo-CLAUDE.md` actualizada a "federal"; `diagnostico-SKILL.md` actualizado a "transversal"); agregada fila `especialidades/medicina-legal-CLAUDE.md` en tabla de routing
+- `argentina/setup-interview.md` - agregado Bloque 2-ter (P5-ter, P6-ter, P7-ter): configuración de organismo/rol pericial, fueros y especialidad, organismo requirente habitual
+- `argentina/setup-output-TEMPLATE.md` - agregadas variables `[ORGANISMO_PERICIAL]`, `[FUEROS_PERICIAL]`, `[ESPECIALIDAD_PERICIAL]`, `[ORGANISMO_REQUIRENTE]` en tabla de variables; agregada sección condicional "Configuración medicina legal y pericia médica forense" en template de CLAUDE.md personalizado
+- `argentina/fuentes.md` - agregadas tres entradas en tabla de fuentes primarias oficiales: Cuerpo Médico Forense CSJN (`csjn.gov.ar/cmfcs`), Protocolo de Estambul ONU (`ohchr.org`), ANSES normativa previsional (`anses.gob.ar`)
+
+**Normas afectadas:** ninguna. Archivo nuevo que aplica normativa ya existente (CPPN Ley 23.984, CPPF Ley 27.063, CPCCN Ley 17.454, CP Ley 11.179, Ley 24.241, Ley 24.660, Ley 26.529, Protocolo de Estambul ONU 1999).
+
+**Nota de implementación:** el perfil verifica el estado de implementación del CPPF distrito por distrito antes de aplicar normativa procesal; vigente desde abril 2026 en Cámaras Federales CABA y Penal Económico y en varios distritos federales del interior; pendientes Córdoba, Posadas, La Plata y justicia nacional ordinaria CABA.
+
+---
+
 ### Mayo 2026 - Feriados trasladables 2026 y Decreto 614/2025 [URGENTE]
 
 **Archivos modificados:**

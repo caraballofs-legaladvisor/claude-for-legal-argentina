@@ -505,6 +505,7 @@ Al inicio de cada consulta, el sistema identifica la rama del derecho y el tipo 
 | `administrativo-CLAUDE.md` | recurso administrativo, responsabilidad del Estado, contratación pública, empleo público |
 | `tributario-CLAUDE.md` | AFIP, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributario |
 | `penal-CLAUDE.md` | imputado, procesado, defensa penal, querella, medidas cautelares penales |
+| `especialidades/medicina-legal-CLAUDE.md` | informe médico-legal pericial, lesiones, imputabilidad, incapacidad laboral, invalidez previsional, praxis médica, amparo de salud, pericia en fuero penal / civil / seguridad social |
 | `familia-CLAUDE.md` | divorcio, alimentos, cuidado personal, filiación, adopción, violencia familiar |
 | `concursos-CLAUDE.md` | concurso preventivo, quiebra, verificación de créditos, APE, cramdown |
 | `plazos-SKILL.md` | cómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLO |
@@ -542,12 +543,17 @@ argentina/
   marcadores-GLOSARIO.md            # Glosario canónico de marcadores (fuente de verdad)
   setup-interview.md                # Entrevista de configuración inicial
   setup-output-TEMPLATE.md          # Template de output de la entrevista
-  diagnostico-SKILL.md              # Skill de diagnóstico previo (todos los fueros)
+  diagnostico-SKILL.md              # Skill de diagnóstico previo (transversal)
   diagnostico-casos-prueba.md       # Casos de prueba para verificar el skill de diagnóstico
   plazos-SKILL.md                   # Skill de cómputo de plazos procesales y administrativos
   red-flags-contratos.md            # Lista de alertas para revisión de contratos (activ. automática)
   contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
-  administrativo-CLAUDE.md          # Perfil derecho administrativo
+  administrativo-CLAUDE.md          # Perfil derecho administrativo (federal)
+  administrativo-caba-CLAUDE.md     # Perfil administrativo CABA (CCAyT - complementa al federal)
+  administrativo-PBA-CLAUDE.md      # Perfil administrativo PBA (complementa al federal)
+  administrativo-SALTA-CLAUDE.md    # Perfil administrativo Salta (complementa al federal)
+  especialidades/
+    medicina-legal-CLAUDE.md         # Pericia médica forense (penal / civil / seguridad social)
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
@@ -560,6 +566,11 @@ argentina/
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
   macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
+  legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
+  evals/                            # Casos de control para verificar perfiles de área
+    README.md                       # Formato estándar y áreas prioritarias
+    administrativo-caba-recursos-agotamiento-via/  # Recursos Dec 1510/97 + plazo art. 7 CCAyT
+    laboral-prescripcion-suspension-concurrente/   # Prescripción bienal art. 256 LCT + suspensiones concurrentes
 ```
 
 ---
