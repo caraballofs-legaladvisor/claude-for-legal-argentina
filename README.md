@@ -283,7 +283,7 @@ Hay tres formas de instalar un conector. La más simple para abogados sin experi
 
 #### Opción 1: Por URL en Claude.ai - sin instalar nada (recomendada)
 
-Funciona para todos los conectores voftec (BOPBA, Normativa PBA, BORA, JUBA, InfoLeg, PJN, PTN). El proceso es idéntico para todos:
+Funciona para todos los conectores voftec (BOPBA, Normativa PBA, BORA, JUBA, InfoLeg, PJN consulta, PJN jurisprudencia, PTN, TFN). El proceso es idéntico para todos:
 
 1. En [Claude.ai](https://claude.ai) entrás a **Settings → Integrations → Add MCP Server**.
 2. En el campo URL pegás la URL del conector (ver tabla abajo).
@@ -314,9 +314,13 @@ Todos tienen instalación por URL (Opción 1). Todos son gratuitos.
 | **Normativa PBA** | Legislación provincial PBA: texto, vigencia, articulado | `https://normativapba-mcp.vercel.app` |
 | **JUBA** - Jurisprudencia PBA | Fallos SCBA y cámaras de apelación PBA | `https://juba-mcp.vercel.app` |
 | **PJN** - Expedientes | Consulta de expedientes PJN: estado, movimientos, carátula | `https://pjn-consulta-mcp.vercel.app` |
+| **PJN** - Jurisprudencia | Fallos, sentencias y resoluciones de fueros federales PJN | `https://pjn-juris-mcp.vercel.app` |
 | **PTN** - Dictámenes | Dictámenes de la Procuración del Tesoro de la Nación | `https://ptn-mcp.vercel.app` |
+| **TFN** - Tribunal Fiscal de la Nación | Jurisprudencia y resoluciones TFN: impositivo y aduanero, 16 herramientas, descarga PDF | `https://tfn-mcp.vercel.app` |
 
 **Nota sobre Normativa PBA:** la herramienta de vigencia consulta el portal normas.gba.gob.ar y reproduce su estado tal como está cargado. El portal puede tener errores en relaciones de derogación. Usalo como primer filtro y verificá siempre contra el Boletín Oficial PBA ante cualquier resultado que parezca anómalo.
+
+**Diferencia entre los dos conectores PJN:** PJN-Expedientes consulta el estado procesal de un expediente (movimientos, carátula, fecha de última actuación). PJN-Jurisprudencia devuelve el texto de fallos y sentencias para investigación previa a la redacción de escritos. Son complementarios, no equivalentes.
 
 **Disponibilidad de los conectores:** las URLs de esta tabla fueron verificadas en mayo 2026. Antes de usar cualquier conector en una sesión real, hacé una consulta de prueba. Si no responde, usá la fuente primaria directamente (links al final de esta sección).
 
@@ -352,14 +356,15 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 | Jurisprudencia SCBA y cámaras PBA | juba.scba.gov.ar |
 | Sentencias y resoluciones primera instancia PBA | sentencias.scba.gov.ar |
 | Jurisprudencia CSJN | sj.csjn.gov.ar |
+| Jurisprudencia federal PJN (fallos y sentencias) | pjn.gov.ar |
 | Jurisprudencia SAIJ | saij.gob.ar |
 | Jurisprudencia CABA y fueros nacionales | jusbaires.gob.ar |
 | Expedientes PJN | pjn.gov.ar |
-| Dictámenes PTN | ptn.gov.ar |
+| Dictámenes PTN | busquedadictamenes.ptn.gob.ar |
 | Jurisprudencia contencioso administrativo federal | cnacaf.gov.ar |
 | Resoluciones IGJ | igj.gob.ar |
 | Resoluciones DPPJ (societario PBA) | gba.gob.ar/dppj |
-| Jurisprudencia tributaria TFN | tfnacional.gov.ar |
+| Jurisprudencia tributaria TFN | tfn.gob.ar |
 | Normativa BCRA | bcra.gov.ar |
 | Disposiciones AAIP (datos personales) | argentina.gob.ar/aaip |
 
