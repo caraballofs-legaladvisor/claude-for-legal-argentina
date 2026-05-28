@@ -9,21 +9,21 @@ El art. 23 LCT (texto según Ley 27.802, art. 13) excluye la presunción de rela
 El art. 52 LCT (texto según Ley 27.802, art. 20) unifica el registro en ARCA. Ya no se menciona libro especial del art. 52 anterior.
 ________________________________________
 
-Registro de la relación laboral - art. 11, Ley 24.013 (ACTUALIZADO)
-Lugar y fecha. Ante infructuosos intentos tendientes a que se registre la relación laboral que nos une, me dirijo a usted con el fin de intimarlo fehacientemente en los términos del art. 11 de la Ley 24.013, a que en el plazo de 30 días proceda a registrar la relación conforme la realidad de la misma. A tales fines denuncio: fecha de ingreso [fecha], empresa [nombre], tareas [tareas], jornada laboral [jornada], categoría laboral [categoría] conforme CCT [numero], remuneración percibida $ [monto], lugar de trabajo [direccion]. Lo intimo a que en el plazo perentorio e improrrogable de 48 horas manifieste en forma clara y precisa si procedera a registrar la relación laboral conforme intimación cursada, entregando recibos de sueldo e informando seguros de ley, bajo apercibimiento de considerarme injuriado y despedido por su exclusiva culpa y responsabilidad. Hare retención de tareas hasta que de cumplimiento (arts. 1031 y 1032 CCCN). Queda Ud. debidamente notificado.
+Registro de la relación laboral - arts. 7 y 7 bis, Ley 24.013 (ACTUALIZADO)
+Lugar y fecha. Ante infructuosos intentos tendientes a que se registre la relación laboral que nos une, me dirijo a usted con el fin de intimarlo fehacientemente en los términos de los arts. 7 y 7 bis de la Ley 24.013, a que en el plazo de 30 días proceda a registrar la relación conforme la realidad de la misma. A tales fines denuncio: fecha de ingreso [fecha], empresa [nombre], tareas [tareas], jornada laboral [jornada], categoría laboral [categoría] conforme CCT [numero], remuneración percibida $ [monto], lugar de trabajo [direccion]. Lo intimo a que en el plazo perentorio e improrrogable de 48 horas manifieste en forma clara y precisa si procedera a registrar la relación laboral conforme intimación cursada, entregando recibos de sueldo e informando seguros de ley, bajo apercibimiento de considerarme injuriado y despedido por su exclusiva culpa y responsabilidad. Hare retención de tareas hasta que de cumplimiento (arts. 1031 y 1032 CCCN). Queda Ud. debidamente notificado.
 
-Revisar antes de enviar: (1) La Ley 27.802 unifica el registro en ARCA (art. 52 LCT reformado); ya no corresponde mencionar "libro especial" ni "Libro del art. 52". (2) Si el trabajador factura o cobra de forma bancarizada, la presunción del art. 23 LCT no opera (art. 13, Ley 27.802). Verificar la naturaleza del vinculo antes de fundar el reclamo en esa presunción. (3) Las multas de la Ley 24.013 fueron derogadas por la Ley 27.742: no mencionar apercibimiento de multas del art. 8 ni concordantes.
+Revisar antes de enviar: (1) El art. 11 de la Ley 24.013 fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. El fundamento vigente para la intimación de registro es el art. 7 (texto según Ley 27.742, art. 82) y el art. 7 bis (incorporado por art. 83 de la Ley 27.742). (2) La Ley 27.802 unifica el registro en ARCA (art. 52 LCT reformado); ya no corresponde mencionar "libro especial" ni "Libro del art. 52". (3) Si el trabajador factura o cobra de forma bancarizada, la presunción del art. 23 LCT no opera (art. 13, Ley 27.802). Verificar la naturaleza del vinculo antes de fundar el reclamo en esa presunción. (4) Las multas de los arts. 8 a 17 de la Ley 24.013 fueron derogadas por la Ley 27.742: no mencionar apercibimiento de esas multas.
 
 ________________________________________
 
 Registro respecto de la fecha de ingreso - art. 9, Ley 24.013 (ACTUALIZADO)
 Lugar y fecha. Habiendo advertido que la fecha de ingreso registrada no corresponde a la real, lo intimo a que en el plazo de 48 horas proceda a rectificar el registro en ARCA consignando como fecha de ingreso el dia [fecha real]. Su omisión me perjudica al reducir mi antigüedad e impedir el acceso a mayor cantidad de días de vacaciones, afectando además el cálculo de aguinaldo y futuros beneficios. Todo ello bajo apercibimiento de considerarme despedido por vuestra exclusiva culpa y responsabilidad. Hare retención de tareas hasta tanto de cumplimiento con sus obligaciones. Queda Ud. debidamente notificado.
 
-Revisar antes de enviar: el art. 9 de la Ley 24.013 subsiste como fundamento del reclamo de rectificación de fecha, pero la multa que contenia fue derogada por la Ley 27.742. No citar el apercibimiento de multa del art. 9. Si el trabajador factura o cobra de forma bancarizada, verificar si la presunción del art. 23 LCT aplica al vinculo.
+Revisar antes de enviar: el art. 9 de la Ley 24.013 fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. Para intimaciones de rectificación de fecha posteriores a esa fecha, el fundamento es el art. 7 de la Ley 24.013 (texto según Ley 27.742) que obliga al registro conforme la realidad. No citar el art. 9. Si el trabajador factura o cobra de forma bancarizada, verificar si la presunción del art. 23 LCT aplica al vinculo.
 
 ________________________________________
 
-Registro de la remuneración real - art. 11, Ley 24.013 (REMISION AL BLOQUE 3)
+Registro de la remuneración real - arts. 7 y 7 bis, Ley 24.013 (REMISION AL BLOQUE 3)
 Este supuesto -remuneración registrada menor a la real en relación ya existente- esta cubierto por el modelo "Intimando al debido registro de la relación laboral respecto del salario" del Bloque 3 (Salarios y Remuneraciones). Usar ese modelo cuando la relación este registrada pero el salario consignado sea inferior al real. Usar el modelo de registro completo de este bloque cuando la relación no este registrada en ningun aspecto.
 
 ________________________________________
@@ -58,7 +58,8 @@ Marcadores pendientes:
 - [fecha real], [razon social], [direccion], [nombre], [número de telegrama], [monto], [CCT], [categoría], [jornada], [tareas]: datos de cada caso concreto, a completar por el abogado antes del envio.
 
 Normas con vigencia confirmada:
-- Ley 24.013, art. 11: subsiste como fundamento de intimación de registro. Multas de arts. 8, 9, 10 y 15: DEROGADAS por Ley 27.742.
+- Ley 24.013, arts. 7 y 7 bis: VIGENTES como fundamento de intimación y registración (texto según Ley 27.742, arts. 82 y 83). Art. 11 y arts. 8 a 17: DEROGADOS por art. 99 de la Ley 27.742.
+- Ley 24.013, art. 7 ter: reformado por Ley 27.802, art. 98. Denuncia directa del trabajador ante ARCA.
 - LCT art. 23: reformado por Ley 27.802, art. 13. Presuncion excluida con facturacion o pago bancarizado.
 - LCT art. 52: reformado por Ley 27.802, art. 20. Registro unificado en ARCA.
 - LCT art. 31: reformado por Ley 27.802, art. 19. Solidaridad entre empresas vinculadas limitada a casos de fraude.

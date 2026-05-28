@@ -142,23 +142,25 @@ Lugar y fecha. Atento al vencimiento del plazo de la intimación cursada mediant
 ________________________________________
 
 Intimando al pago de indemnizaciones, multas e incluyendo certificados del art. 80 LCT (ACTUALIZADO - CRITICO)
-Lugar y fecha. Atento al distracto laboral producido por su exclusiva culpa y responsabilidad, y habiendo vencido los plazos legales sin que se hayan cancelado los rubros derivados del mismo, lo intimo a que en el plazo de 48 horas proceda a abonar las indemnizaciones por antigüedad, falta de preaviso e integración del mes de despido. Asimismo, intimo a que dentro del plazo de 45 días habiles desde la extinción del contrato ponga a disposición los certificados previstos en el art. 80 de la LCT, ya sea en formato fisico en la sede de la empresa, en formato digital a través de un sistema que permita acreditar su entrega de manera fehaciente, o mediante disponibilidad en la plataforma de ARCA, bajo apercibimiento de reclamar la indemnización prevista en el art. 45 de la Ley 25.345. Todo ello bajo apercibimiento de iniciar las acciones legales pertinentes. Reservo derechos. Queda Ud. debidamente notificado.
+Lugar y fecha. Atento al distracto laboral producido por su exclusiva culpa y responsabilidad, y habiendo vencido los plazos legales sin que se hayan cancelado los rubros derivados del mismo, lo intimo a que en el plazo de 48 horas proceda a abonar las indemnizaciones por antigüedad, falta de preaviso e integración del mes de despido. Asimismo, intimo a que dentro del plazo de 45 días habiles desde la extinción del contrato ponga a disposición los certificados previstos en el art. 80 de la LCT, ya sea en formato fisico en la sede de la empresa, en formato digital a través de un sistema que permita acreditar su entrega de manera fehaciente, o mediante disponibilidad en la plataforma de ARCA [para extinciones desde el 9/7/2024: sin apercibimiento de multa art. 45 Ley 25.345, derogado - reemplazar con apercibimiento de accionar por incumplimiento del art. 80 LCT]. Todo ello bajo apercibimiento de iniciar las acciones legales pertinentes. Reservo derechos. Queda Ud. debidamente notificado.
 
-Revisar antes de enviar: (1) Los arts. 8, 9, 10 y 15 de la Ley 24.013 y los arts. 1 y 2 de la Ley 25.323 fueron derogados por la Ley 27.742. Eliminar toda referencia a esas multas. (2) El art. 80 LCT (texto según Ley 27.802, art. 25) habilita tres vias de cumplimiento: fisico, digital fehaciente o disponibilidad en ARCA. Si el empleador acredita cualquiera de las tres, la multa del art. 45 de la Ley 25.345 no es exigible. El plazo es de 45 días habiles desde la extinción, no corridos. (3) Verificar base de calculo del art. 245 según fecha de inicio del contrato.
+Revisar antes de enviar: (1) Los arts. 8, 9, 10 y 15 de la Ley 24.013 y la Ley 25.323 completa fueron derogados por la Ley 27.742. Eliminar toda referencia a esas multas. (2) El art. 45 de la Ley 25.345 (multa por falta de certificados) fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. Para extinciones desde esa fecha, el apercibimiento por certificados se funda exclusivamente en el art. 80 LCT (texto según Ley 27.802, art. 25), que habilita tres vias de cumplimiento: fisico, digital fehaciente o disponibilidad en ARCA. El plazo es de 45 días habiles desde la extinción, no corridos. Para extinciones anteriores al 9/7/2024, verificar si la intimación fue previa y fehaciente. (3) Verificar base de calculo del art. 245 según fecha del acto extintivo.
 
 ________________________________________
 
 Intimando al pago de liquidación final y entrega de certificados - art. 80 LCT (ACTUALIZADO)
-Lugar y fecha. Atenta renuncia comunicada mediante telegrama [numero] y ante la falta de pago de la liquidación final, lo intimo a que en el plazo de 48 horas proceda a abonar días trabajados, vacaciones y aguinaldo proporcional. Asimismo, intimo a que dentro del plazo de 45 días habiles desde la extinción del contrato ponga a disposición los certificados previstos en el art. 80 de la LCT, ya sea en formato fisico en la sede de la empresa, en formato digital a través de un sistema que permita acreditar su entrega fehacientemente, o mediante disponibilidad en la plataforma de ARCA, bajo apercibimiento de reclamar la indemnización prevista en el art. 45 de la Ley 25.345 y de accionar judicialmente. Queda Ud. debidamente notificado.
+Lugar y fecha. Atenta renuncia comunicada mediante telegrama [numero] y ante la falta de pago de la liquidación final, lo intimo a que en el plazo de 48 horas proceda a abonar días trabajados, vacaciones y aguinaldo proporcional. Asimismo, intimo a que dentro del plazo de 45 días habiles desde la extinción del contrato ponga a disposición los certificados previstos en el art. 80 de la LCT, ya sea en formato fisico en la sede de la empresa, en formato digital a través de un sistema que permita acreditar su entrega fehacientemente, o mediante disponibilidad en la plataforma de ARCA [para extinciones desde el 9/7/2024: sin apercibimiento de multa art. 45 Ley 25.345, derogado - reemplazar con apercibimiento de accionar por incumplimiento del art. 80 LCT] y de accionar judicialmente. Queda Ud. debidamente notificado.
 
 Revisar antes de enviar: el plazo de 45 días habiles corre desde la extinción del contrato. Verificar que esa fecha este correctamente determinada. Si la informacion ya estuviera disponible en el sitio web de ARCA, el empleador podria alegar cumplimiento por esa via.
 
 ________________________________________
 
-Intimando al pago de la multa del art. 45 de la Ley 25.345 (ACTUALIZADO)
-Lugar y fecha. Habiendo transcurrido el plazo de 45 días habiles desde la extinción del contrato sin que Ud. haya dado cumplimiento a la obligación prevista en el art. 80 de la LCT, ni en formato fisico en la sede de la empresa, ni en formato digital a través de sistema fehaciente, ni encontrandose la informacion disponible en el sitio web de ARCA, lo intimo a que proceda al pago de la indemnización prevista en el art. 45 de la Ley 25.345. Queda Ud. debidamente notificado.
+Intimando al pago de la multa art. 45, Ley 25.345 - SOLO PARA EXTINCIONES ANTERIORES AL 9/7/2024
+Nota: el art. 45 de la Ley 25.345 fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. Este modelo es aplicable exclusivamente a extinciones anteriores a esa fecha donde se haya cursado intimación fehaciente previa dentro del plazo legal.
 
-Revisar antes de enviar: confirmar que efectivamente no se cumplio ninguna de las tres vias alternativas del art. 80 LCT antes de enviar esta intimación.
+Lugar y fecha. Habiendo transcurrido el plazo de 30 días corridos desde la extinción del contrato sin que Ud. haya cumplido con la obligación de entregar los certificados previstos en el art. 80 de la LCT, y habiendo intimado fehacientemente su entrega sin resultado, lo intimo a que proceda al pago de la indemnización prevista en el art. 45 de la Ley 25.345. Queda Ud. debidamente notificado.
+
+Revisar antes de enviar: confirmar que la extinción sea anterior al 9/7/2024 y que la intimación fehaciente haya sido cursada en tiempo. Para extinciones desde el 9/7/2024 este modelo no aplica.
 
 ________________________________________
 
@@ -178,7 +180,7 @@ Normas con vigencia confirmada:
 - LCT art. 216: DEROGADO por Ley 27.802, art. 207, vigente desde el 6/3/2026.
 - Ley 24.013, arts. 8, 9, 10 y 15: DEROGADOS por Ley 27.742.
 - Ley 25.323, arts. 1 y 2: DEROGADOS por Ley 27.742.
-- Ley 25.345, art. 45: VIGENTE.
+- Ley 25.345, arts. 43 a 48: DEROGADOS por art. 99 de la Ley 27.742 desde el 9/7/2024. El art. 45 (multa por falta de certificados) no existe para extinciones desde esa fecha. Para extinciones anteriores al 9/7/2024 era aplicable con intimación fehaciente previa.
 - Ley 23.551, arts. 48, 50 y 52: VIGENTES.
 
 Decisiones estructurales por defecto:
