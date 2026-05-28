@@ -33,11 +33,24 @@ argentina/
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
   laboral-CLAUDE.md                 # Perfil derecho del trabajo (LCT)
+  laboral/
+    telegrama/
+      telegramas-SKILL.md           # Instrucciones operativas del skill de telegramas
+      tipos-de-telegrama.md         # Clasificación por grupo y notas críticas
+      reglas-normativas.md          # Reglas de validación normativa post-reforma
+      modelos/
+        bloque-01-registro.md       # Registro de la relación laboral
+        bloque-02-estabilidad-despido.md  # Estabilidad y despido
+        bloque-03-salarios.md       # Pago de salarios y remuneraciones
+        bloque-04-ius-variandi.md   # Modificaciones contractuales
+        bloque-05-renuncia.md       # Renuncia
+        bloque-06-vacaciones-licencias.md # Vacaciones y licencias
+        bloque-07-salud-hostigamiento.md  # Seguridad, salud, hostigamiento y discriminación
+        bloque-08-construccion.md   # Industria de la construcción (Ley 22.250)
   penal-CLAUDE.md                   # Perfil derecho penal
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
-  ejemplos-laboral.md               # Casos de liquidación con checklist de rubros
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
   macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
@@ -45,7 +58,6 @@ argentina/
   evals/                            # Casos de control para verificar perfiles de área
     README.md                       # Formato estándar y áreas prioritarias
     administrativo-caba-recursos-agotamiento-via/  # Recursos Dec 1510/97 + plazo art. 7 CCAyT
-    laboral-prescripcion-suspension-concurrente/   # Prescripción bienal art. 256 LCT + suspensiones concurrentes
 ```
 
 ---
@@ -169,7 +181,7 @@ Después:
 1. En [Claude.ai](https://claude.ai) entrás a **Projects** (barra lateral izquierda) y creás uno nuevo. Le ponés el nombre de tu práctica.
 2. Dentro del Project, hacés clic en el ícono de lápiz (**Project instructions**) y pegás el `CLAUDE.md` personalizado que te generó la entrevista. Queda activo en todas las conversaciones de ese Project.
 3. Subís los perfiles de área como **Knowledge** del Project (botón "Add content"). Ejemplos según tu fuero habitual:
-   - Laboral: `argentina/laboral-CLAUDE.md` + `argentina/ejemplos-laboral.md`
+   - Laboral: `argentina/laboral-CLAUDE.md`. Para usar skills específicas (telegramas, plazos u otras), subí los archivos de la subcarpeta correspondiente dentro de `argentina/laboral/` cuando las necesites.
    - Civil: `argentina/civil-CLAUDE.md` + `argentina/ejemplos-civil.md`
    - Administrativo CABA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-caba-CLAUDE.md`
    - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-PBA-CLAUDE.md`
@@ -221,6 +233,8 @@ Instalá los que correspondan a tu práctica. Podés instalar varios.
 
 Las skills se activan automáticamente cuando son relevantes. También podés invocarlas manualmente escribiendo "/" para ver la lista de comandos disponibles. Claude accede a tu carpeta de trabajo, lee los archivos directamente y ejecuta tareas largas sin supervisión: liquidaciones sobre varios expedientes, revisión de contratos en lote, matrices de riesgo, cronologías. Las actualizaciones del repositorio se incorporan automáticamente la próxima vez que usás el sistema.
 
+Para activar una skill específica (telegramas, plazos u otras): en Cowork, con acceso habilitado a tu carpeta del repo, indicale a Claude que lea el archivo correspondiente dentro de `argentina/laboral/`. No uses el flujo "Cargar habilidad", ese es para archivos `.skill` de Cowork, no para los `.md` de este repo.
+
 ---
 
 ## Perfiles por área
@@ -229,7 +243,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 
 | Archivo de perfil | Área | Complementos | Alertas |
 |---|---|---|---|
-| `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `ejemplos-laboral.md` | DNU 70/2023, topes art. 245, tasas CNAT |
+| `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `laboral/telegrama/` | DNU 70/2023, Ley 27.742, Ley 27.802, topes art. 245, tasas CNAT |
 | `administrativo-CLAUDE.md` | Derecho administrativo (federal) | - | Plazos de caducidad, contratación pública |
 | `administrativo-caba-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
 | `administrativo-PBA-CLAUDE.md` | Derecho administrativo PBA | `administrativo-CLAUDE.md` (base) | Plazos CPCA PBA, Ley 7647, contratación pública PBA |
@@ -253,7 +267,7 @@ de cada perfil para que el sistema la procese con prioridad.
 
 | Perfil | Sección de alerta | Normas cubiertas |
 |---|---|---|
-| `laboral-CLAUDE.md` | `## Alerta normativa - Decreto 70/2023 y modificaciones posteriores` | DNU 70/2023 (período de prueba, art. 245, negociación colectiva) |
+| `laboral-CLAUDE.md` | `## Alerta normativa - Reforma laboral 2023-2026 vigente operacionalmente` | DNU 70/2023, Ley 27.742 (derogación agravantes registrales), Ley 27.802 (art. 245, art. 66, art. 80, art. 240) |
 | `civil-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas de interés por fuero, fórmulas de cuantificación de daños, art. 52 bis LDC |
 | `administrativo-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Plazos de caducidad art. 25 LNPA, contratación pública, normativa provincial |
 | `concursos-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas post-concursales, período de sospecha, reformas LCQ |
@@ -342,7 +356,9 @@ Requieren instalación por comando o manual. Los conectores con `uvx` requieren 
 
 **Ecosistema Hernán Caravario (hernan-cc):** saij-mcp, csjn-mcp y juscaba-mcp son parte del mismo ecosistema. Podés instalar los tres en simultáneo; Claude elige cuál usar según la consulta. Ver todos en [github.com/hernan-cc](https://github.com/hernan-cc) y [hernancc.com/mcp-tools](https://hernancc.com/mcp-tools).
 
+---
 
+### Fuentes primarias
 
 Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ante cualquier discrepancia.
 
@@ -388,9 +404,9 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Verificar requisitos de notificación a la CNDC en operaciones de concentración
 
 **Laboral:**
-- Calcular liquidaciones finales (art. 245 LCT + agravantes Ley 24.013 / Ley 25.323 / art. 80)
+- Calcular liquidaciones finales (art. 245 LCT con los tres regímenes según fecha del acto extintivo, certificados art. 80 LCT)
 - Analizar estrategia desde el trabajador o el empleador con carga probatoria invertida
-- Redactar telegramas y cartas documento laborales
+- Redactar telegramas y cartas documento laborales con verificación normativa post-reforma (Ley 27.742 + Ley 27.802)
 
 **Administrativo:**
 - Verificar agotamiento de la vía administrativa y plazos de caducidad (art. 25 LNPA)
@@ -463,7 +479,7 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 
 **Para contribuir directamente**, editá el archivo en tu fork y abrí un Pull Request describiendo el cambio. Si no sabés cómo, mandame el texto por mensaje y lo incorporo yo con la atribución correspondiente. Los cambios con fuente normativa citada se procesan primero.
 
-**Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales, prescripción laboral y vicios formales en contratos. Ver `evals/README.md` para el formato completo.
+**Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales y vicios formales en contratos. Ver `evals/README.md` para el formato completo.
 
 ---
 
