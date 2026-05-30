@@ -149,9 +149,35 @@ El `git pull` trae los cambios más recientes. Si dice "Already up to date" ya t
 Una vez ejecutado, todos los archivos del sistema quedan en tu computadora en la carpeta `C:\Users\TU USUARIO\claude-for-legal-argentina\argentina\`. Desde ahí vas a adjuntarlos en Claude cuando el sistema te lo pida.
 
 #### Paso 2: Configurar el perfil del estudio
-
-El archivo `legal.local.md.template` es tu configuración personal. Le dice al sistema quién sos, en qué fuero trabajás y cómo trabajás, sin que tengas que repetirlo en cada sesión. Es privado: nunca se sube al repositorio.
-
+ 
+El archivo `argentina/legal.local.md` le dice al sistema quién sos, en qué fueros trabajás y cómo trabajás. Es privado: nunca se sube al repositorio.
+ 
+Creá tu copia:
+ 
+**Windows:**
+```bash
+cp argentina/legal.local.md.template argentina/legal.local.md
+notepad argentina/legal.local.md
+```
+ 
+**Mac:**
+```bash
+cp argentina/legal.local.md.template argentina/legal.local.md
+open -e argentina/legal.local.md
+```
+ 
+`open -e` abre el archivo en TextEdit. Si no funciona, probá `nano argentina/legal.local.md`.
+ 
+Para completarlo, abrís un chat en [claude.ai](https://claude.ai), adjuntás `argentina/legal.local.md.template` y escribís:
+ 
+> "Completá este archivo con los datos de mi estudio."
+ 
+Copiás el resultado y lo guardás como `C:\Users\[TU USUARIO]\claude-for-legal-argentina\argentina\legal.local.md`. Después lo protegés:
+ 
+```bash
+echo "legal.local.md" >> .gitignore
+```
+ 
 **Crear tu copia personal:**
 
 En Git Bash ejecutás:
