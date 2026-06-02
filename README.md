@@ -42,6 +42,10 @@ argentina/
     administrativo-_PROVINCIA_-CLAUDE.md # Template para nuevas provincias
   especialidades/
     medicina-legal-CLAUDE.md         # Pericia médica forense (penal / civil / seguridad social)
+  notarial/
+    notarial-CLAUDE.md              # Derecho notarial (protocolo, compliance UIF, escrituras)
+    notarial-clausulas.md           # Biblioteca de cláusulas tipo (complemento del perfil base)
+    notarial-_PROVINCIA_-CLAUDE.md  # Template para perfiles jurisdiccionales
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
@@ -84,6 +88,7 @@ argentina/
 - CPCCN para fueros nacionales y federales / CPCCBA para PBA
 - LDC (Ley 24.240) para contratos de consumo
 - LGS para societario
+- Ley 17.801 y CCCN para actos registrales y compliance notarial (Res. UIF 242/2023)
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
 - Contratos: análisis bajo CCCN (no bajo consideration ni indemnification caps)
@@ -225,6 +230,7 @@ Después:
    - Administrativo CABA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-caba-CLAUDE.md`
    - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-PBA-CLAUDE.md`
    - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-SALTA-CLAUDE.md`
+   - Notarial: `argentina/notarial/notarial-CLAUDE.md` + `argentina/notarial/notarial-clausulas.md`
    - También subís tu `argentina/legal.local.md` con los datos del estudio.
 4. Guardás. Cada conversación nueva dentro del Project arranca con todos esos archivos activos.
 
@@ -295,6 +301,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
 | `contratos-CLAUDE.md` | Revisión y redacción de contratos | `red-flags-contratos.md` | Régimen cambiario, locaciones, intertemporalidad |
 | `especialidades/medicina-legal-CLAUDE.md` | Pericia médica forense (penal / civil / seguridad social) | - | CPPF implementación por distrito, baremos por tribunal |
+| `notarial/notarial-CLAUDE.md` + `notarial/notarial-clausulas.md` | Derecho notarial (escrituras traslativas, donaciones, poderes, actas, sucesiones extrajudiciales, compliance UIF) | - | Res. UIF 242/2023 (umbrales SMVM indexados), Impuesto de Sellos (anual por jurisdicción), prehorizontalidad art. 2071 (reglamentación provincial), régimen de sinceramiento fiscal vigente |
 
 ---
 
@@ -315,8 +322,7 @@ de cada perfil para que el sistema la procese con prioridad.
 | `penal-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Umbrales de punibilidad, códigos procesales en transición |
 | `societario-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Resoluciones IGJ/DPPJ, capital mínimo, sindicatura |
 | `especialidades/medicina-legal-CLAUDE.md` | `## Alerta normativa` | Estado de implementación CPPF por distrito, baremos por tribunal requirente |
-
-
+| `notarial/notarial-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Res. UIF 242/2023 (umbrales SMVM indexados, Res. UIF 78/2025), COTI derogado (RG ARCA 5697/2025), CITI Escribanos derogado (RG ARCA 5698/2025), Impuesto de Sellos por jurisdicción, prehorizontalidad art. 2071, sinceramiento fiscal vigente |
 
 ---
 
@@ -375,7 +381,7 @@ Todos tienen instalación por URL (Opción 1). Todos son gratuitos.
 
 **Diferencia entre los dos conectores PJN:** PJN-Expedientes consulta el estado procesal de un expediente (movimientos, carátula, fecha de última actuación). PJN-Jurisprudencia devuelve el texto de fallos y sentencias para investigación previa a la redacción de escritos. Son complementarios, no equivalentes.
 
-**Disponibilidad de los conectores:** las URLs de esta tabla fueron verificadas en mayo 2026. Antes de usar cualquier conector en una sesión real, hacé una consulta de prueba. Si no responde, usá la fuente primaria directamente (links al final de esta sección).
+**Disponibilidad de los conectores:** las URLs de esta tabla fueron verificadas en junio 2026. Antes de usar cualquier conector en una sesión real, hacé una consulta de prueba. Si no responde, usá la fuente primaria directamente (links al final de esta sección).
 
 ---
 
@@ -473,6 +479,12 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Verificar privilegios de créditos y estrategia de verificación
 - Analizar acciones de recomposición patrimonial (período de sospecha, arts. 118-119 LCQ)
 
+**Notarial:**
+- Redactar escrituras traslativas de dominio, donaciones, poderes e hipotecas con alertas automáticas de asentimiento, afectación a vivienda y régimen patrimonial matrimonial
+- Aplicar compliance UIF 242/2023 con segmentación de clientes por nivel de riesgo y umbrales indexados por SMVM
+- Generar cláusulas tipo para los actos más frecuentes del protocolo: asentimiento conyugal, entrega de posesión, origen de fondos, tracto abreviado, usufructo vitalicio con derecho de acrecer, dispensa de colación, poder irrevocable, constatación de entorno digital
+- Verificar cadena dominial, certificados registrales y plazos de vigencia según jurisdicción del RPI
+
 ---
 
 ## Lo que no reemplaza
@@ -532,4 +544,4 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)  
 Abogado (CPACF) · CABA y GBA · Legal tech & IA aplicada a práctica jurídica argentina
 
-*Última actualización: mayo 2026*
+*Última actualización: junio 2026*
