@@ -91,11 +91,9 @@ Regla operativa:
 ```
 
 ### Montos de punibilidad en delitos económicos
-Los umbrales de punibilidad en delitos tributarios (Ley 27.430), lavado de activos
-(Ley 25.246) y otros delitos económicos se actualizan con frecuencia.
-No citar montos sin verificar la norma vigente al momento de la consulta.
+Los umbrales del Régimen Penal Tributario (Ley 27.430, Título IX) están verificados y actualizados a la Ley 27.799 (2/1/2026) en la sección específica de este archivo. El umbral del art. 303 CP (lavado) está expresado en 150 salarios mínimos, vitales y móviles (SMVM) desde la Ley 27.739 (vigente desde 14/4/2024): no es un monto fijo, varía con cada actualización del SMVM. Verificar el valor del SMVM vigente al momento de los hechos antes de analizar punibilidad por lavado.
 ```
-[VERIFICAR MONTO ACTUALIZADO: umbral de punibilidad - Ley 27.430 y normas específicas del delito]
+[VERIFICAR SMVM VIGENTE: el umbral de punibilidad del art. 303 CP (lavado) equivale a 150 SMVM al momento de los hechos - consultar resolución del Consejo Nacional del Empleo vigente]
 ```
 
 ### Colaboración eficaz (Ley 27.304)
@@ -123,15 +121,14 @@ antes de asesorar sobre esta figura.
 - **Ley 23.737:** estupefacientes y modificatorias
 - **Ley 25.246:** lavado de activos y modificatorias (Ley 27.739)
 - **Ley 26.683:** delitos contra el orden económico y financiero
-- **Ley 24.769 (sustituida por Ley 27.430):** régimen penal tributario
+- **Ley 27.430 (Título IX):** régimen penal tributario - umbrales actualizados por Ley 27.799 (BO 2/1/2026)
 - **Ley 26.388:** delitos informáticos
 - **Ley 26.842:** trata de personas
 - **Ley 26.485:** protección integral de la mujer - impacto en tipos penales y medidas cautelares
 
 ### Derecho penal juvenil
 
-- **Régimen Penal de la Minoridad (Decreto-Ley 22.278):** vigente con modificaciones
-- Verificar estado de reforma legislativa antes de aconsejar sobre imputabilidad
+- **Régimen Penal de la Minoridad (Decreto-Ley 22.278 y modificatorias - Leyes 22.803, 23.264 y 23.742):** vigente. No imputabilidad absoluta hasta los 16 años; imputabilidad relativa entre 16 y 18. No hubo reforma legislativa general al cierre de esta actualización (junio 2026); verificar si hubo sanción posterior antes de aconsejar sobre imputabilidad.
 
 ### Organismos y fuentes primarias
 
@@ -400,8 +397,8 @@ Alertas específicas:
 ### Penal económico y tributario
 
 Normativa específica:
-- Régimen Penal Tributario (Ley 27.430, Título IX)
-- Ley 25.246 de lavado de activos y modificatorias (Ley 27.739)
+- Régimen Penal Tributario (Ley 27.430, Título IX - umbrales actualizados por Ley 27.799, BO 2/1/2026)
+- Ley 25.246 de lavado de activos y modificatorias (Ley 27.739, vigente desde 14/4/2024): umbral art. 303 CP = 150 SMVM; incorpora proveedores de activos virtuales como sujetos obligados; amplía sujetos obligados para abogados, contadores y escribanos con umbrales en SMVM
 - Ley 26.683 delitos contra el orden económico y financiero
 - Resoluciones UIF vigentes
 
@@ -496,7 +493,7 @@ Normativa específica:
 - Ley 26.388 (delitos informáticos)
 - Arts. modificados del CP: 153, 153 bis, 155, 157, 157 bis, 173 inc. 16, 183, 184, 197, 255
 - Ley 25.326 art. 32 (habeas data penal)
-- Convenio de Budapest (Argentina adhirió en 2018; en 2023 firmó el Segundo Protocolo Adicional - verificar estado de ratificación interna del Protocolo)
+- Convenio de Budapest (Argentina adhirió en 2017 mediante Ley 27.411). El texto del Segundo Protocolo Adicional fue aprobado por el Consejo de Europa en mayo 2021 con participación argentina; sin embargo, el Protocolo no ha sido incorporado al derecho interno por ley del Congreso hasta junio 2026. Verificar si hubo ratificación interna posterior antes de invocar sus disposiciones.
 
 Preguntas de diagnóstico:
 - ¿Hay evidencia digital? ¿Fue obtenida con orden judicial?
@@ -668,28 +665,104 @@ Alertar sobre:
 
 ---
 
-## Reforma 2023-2024 - impacto en penal económico (cross-references)
+## Régimen penal tributario - Ley 27.430, Título IX (actualizado)
 
-*Este perfil no fue afectado sustantivamente por DNU 70/2023, Ley 27.742 ni Ley 27.743 en materia de tipos penales generales, procesal penal ni ejecución. Los impactos son específicos del penal económico y tributario. Última verificación: mayo 2026.*
+*Este perfil no fue afectado sustantivamente por DNU 70/2023, Ley 27.742 ni Ley 27.743 en materia de tipos penales generales, procesal penal ni ejecución. Los impactos son específicos del penal económico y tributario. Última verificación: junio 2026.*
 
-Para causas con componente económico o tributario, remitir a los perfiles correspondientes antes de analizar:
+### Normativa vigente
 
-**Régimen penal tributario (Ley 27.430 modificada por Ley 27.743):**
-- La Ley 27.743 (Paquete Fiscal, BO 8-jul-2024) reformó el régimen penal tributario: actualizó los umbrales de punibilidad y eliminó algunas figuras. Antes de analizar cualquier causa tributaria, verificar el texto actualizado de la Ley 27.430 y los montos vigentes.
-- La Ley 27.743 también introdujo modificaciones a la prejudicialidad penal-tributaria: la interacción entre el procedimiento administrativo ante ARCA (ex AFIP) y la causa penal tiene reglas propias que pueden condicionar la estrategia.
+El Título IX de la Ley 27.430 (BO 29/12/2017) derogó la Ley 24.769 y es el texto base del régimen penal tributario. Los umbrales de punibilidad vigentes desde el 2/1/2026 fueron actualizados por la **Ley 27.799** (BO 2/1/2026). La Ley 27.743 (Paquete Fiscal, BO 8/7/2024) no modificó los tipos penales ni los umbrales del Título IX: su impacto en materia penal se limita a los efectos extintivos de sus regímenes de moratoria y blanqueo (ver subsección siguiente).
+
+### Umbrales de punibilidad vigentes (Ley 27.799, en vigor desde 2/1/2026)
+
+**Título I - Delitos tributarios:**
+- Art. 1° Evasión simple: $100.000.000 por tributo y por ejercicio anual
+- Art. 2° Evasión agravada:
+  - inc. a) monto > $1.000.000.000
+  - inc. b) con interpósita persona o jurisdicción no cooperante: > $200.000.000
+  - inc. c) abuso de beneficios fiscales: > $200.000.000
+  - inc. d) facturas falsas: perjuicio > $100.000.000
+- Art. 3° Aprovechamiento indebido de beneficios: > $100.000.000 por ejercicio anual
+- Art. 4° Apropiación indebida de tributos (agente de retención/percepción): > $10.000.000 por mes
+
+**Título II - Delitos relativos a la seguridad social:**
+- Art. 5° Evasión simple: > $7.000.000 por mes
+- Art. 6° Evasión agravada:
+  - inc. a) monto > $35.000.000 por mes
+  - inc. b) con interpósita persona: > $14.000.000 por mes
+  - inc. c) abuso de beneficios: > $14.000.000 por mes
+- Art. 7° Apropiación indebida (empleador / agente de retención): > $3.500.000 por mes
+
+**Título III - Delitos fiscales comunes:**
+- Art. 10 Simulación dolosa de cancelación: > $20.000.000 por ejercicio anual (obligaciones tributarias) y > $3.500.000 por mes (seguridad social)
+
+Los montos consignados son los vigentes desde el 2/1/2026 (BO Ley 27.799). La Ley 27.799 incorporó su propio mecanismo de actualización (art. 43): los umbrales se ajustan anualmente por variación de la Unidad de Valor Adquisitivo (UVA), operada entre enero y diciembre del año calendario inmediato anterior, a partir del 1/1/2027. ARCA publica los importes actualizados anualmente.
 
 ```
-[VERIFICAR RÉGIMEN PENAL TRIBUTARIO VIGENTE: Ley 27.430 modificada por Ley 27.743 - umbrales actualizados y figuras reformadas - ver tributario-CLAUDE.md]
+[VERIFICAR MONTOS ACTUALIZADOS POR UVA: a partir del 1/1/2027 los umbrales se actualizan anualmente por UVA (art. 43 Ley 27.799) - verificar si ARCA publicó importes para el ejercicio en curso antes de analizar la punibilidad]
 ```
+
+Para evaluar la configuración del delito se considera el monto vigente al momento de su comisión, entendiéndose por tal la fecha de vencimiento de la declaración jurada del tributo correspondiente (art. 43 Ley 27.799). Para hechos anteriores al 2/1/2026 analizar aplicación del principio de ley penal más benigna (art. 2 CP).
+
+### Extinción de la acción penal - art. 16 Ley 27.430 (modificado por Ley 27.799)
+
+Dos vías:
+
+**Pre-denuncia:** El organismo recaudador no formula denuncia si las obligaciones evadidas e intereses se cancelan en forma total e incondicional antes de la formulación. Se otorga por única vez por cada persona humana o jurídica obligada.
+
+**Post-imputación:** Si ya se inició la acción penal, se extingue si se aceptan y cancelan las obligaciones evadidas e intereses más un adicional del 50% del total, dentro de los 30 días hábiles posteriores a la notificación fehaciente de la imputación penal.
+
+La extinción por reparación integral del art. 59 inc. 6 CP no aplica a los casos del primer párrafo del art. 16. La acción penal no prosigue cuando están prescriptas las facultades del organismo recaudador para determinar los tributos (art. s/n incorporado por Ley 27.799).
+
+Alertar sobre:
+- La limitación de única vez por sujeto para la vía pre-denuncia
+- El plazo perentorio de 30 días hábiles para la vía post-imputación
+- La necesidad de cancelación incondicional y total (no es suficiente el plan de pagos salvo que esté permitido expresamente)
+
+### Extinción de la acción por moratoria y blanqueo - Ley 27.743
+
+**Vía moratoria (Título I, art. 5°):** La cancelación total de la deuda tributaria, aduanera o de seguridad social bajo el régimen de regularización suspende las acciones penales en curso e interrumpe la prescripción desde el acogimiento, cualquiera sea la etapa procesal. La cancelación total produce extinción de la acción, siempre que no exista sentencia firme a la fecha de cancelación. La caducidad del plan reactiva la acción y reinicia el cómputo de la prescripción.
+
+**Vía blanqueo (Título II, art. 34°):** La adhesión al Régimen de Regularización de Activos libera de toda acción civil y por delitos tributarios, cambiarios, aduaneros e infracciones administrativas vinculadas a los bienes declarados, en las rentas que generaron y en los fondos usados para su adquisición. La liberación equivale expresamente a la extinción del art. 59 inc. 2° CP y alcanza a directores, gerentes y demás representantes.
+
+**Exclusiones relevantes para la práctica penal:**
+
+Moratoria (art. 4°):
+- inc. j): condenados con sentencia confirmada en segunda instancia por delitos del Título IX de la Ley 27.430
+- inc. m): agentes de retención/percepción con auto de procesamiento firme y causa elevada a juicio oral por los arts. 4° y 7° del Título IX
+
+Blanqueo (art. 41° inc. e): procesados, aun sin firmeza del auto, por:
+- delitos contra el orden económico y financiero (arts. 303, 306, 307, 309-312 CP)
+- delitos de lavado (art. 6° Ley 25.246, excepto inc. k)
+- estafa y defraudaciones (arts. 172-174 CP)
+- usura (art. 175 bis CP)
+- quebrados y deudores punibles (arts. 176-179 CP)
+- delitos contra la fe pública (arts. 282, 283 y 287 CP)
+- encubrimiento (art. 277 inc. c CP)
+- homicidio por precio, explotación sexual y secuestro extorsivo (arts. 80 inc. 3, 127 y 170 CP)
+
+La exclusión por procesamiento en blanqueo también alcanza a familiares hasta el cuarto grado de consanguinidad del procesado.
+
+### Prejudicialidad penal-tributaria
+
+La formulación de la denuncia penal no suspende ni impide la sustanciación del procedimiento de determinación de la deuda. La autoridad administrativa se abstiene de aplicar sanciones hasta sentencia firme en sede penal, luego de lo cual aplica las sanciones que correspondan sin alterar los hechos declarados en la sentencia (art. 20 Ley 27.430).
+
+El organismo recaudador no formula denuncia en los supuestos del art. 19 Ley 27.430 (sustituido por Ley 27.799): diferencias de criterio normativo o técnico-contable, determinaciones fundadas exclusivamente en presunciones sin otras pruebas, criterio interpretativo exteriorizado formalmente ante ARCA con anterioridad a la declaración jurada, o presentación de declaraciones juradas antes de notificada la fiscalización.
+
+---
 
 **Delitos económicos y DNU 70/2023:**
 - El DNU 70/2023 introdujo modificaciones en regulación comercial y de consumo que pueden tener implicancias en figuras de defraudación y conductas tipificadas como delitos económicos. Verificar el texto vigente de las disposiciones específicas del CP antes de encuadrar la conducta.
 
-**Lavado de activos (Ley 25.246 modificada por Ley 27.739):**
-- La Ley 27.739 [VERIFICAR VIGENCIA] modificó la Ley 25.246. Verificar texto actualizado antes de analizar cualquier causa de lavado, en particular los umbrales de reporte y las obligaciones de los sujetos obligados.
+**Lavado de activos (Ley 25.246 modificada por Ley 27.739, vigente desde 14/4/2024):**
+- Umbral de punibilidad del art. 303 CP: 150 SMVM al momento de los hechos (no monto fijo). Verificar SMVM vigente en cada causa.
+- Nuevos sujetos obligados incorporados: proveedores de servicios de activos virtuales (art. 20 inc. 13); deportes profesionales (inc. 23); compraventa de vehículos y aeronaves (inc. 22). Abogados, contadores y escribanos tienen obligaciones con umbrales propios en SMVM (art. 20 inc. 17).
+- La Ley 27.739 también modificó el art. 41 quinquies CP (terrorismo) y el art. 306 CP (financiamiento del terrorismo), incorporando financiamiento de proliferación de armas de destrucción masiva como figura autónoma (inc. f).
+- Registo de Proveedores de Servicios de Activos Virtuales: bajo jurisdicción CNV (art. 37).
+- UIF pasa a jurisdicción del Ministerio de Economía (art. 5° sustituido).
 
 ---
 
-*Última actualización: mayo 2026*
-*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz)*
+*Última actualización: junio 2026*
+*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz), Ley 27.430 Título IX (régimen penal tributario, umbrales actualizados por Ley 27.799), Ley 27.743 (efectos extintivos moratoria y blanqueo)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
