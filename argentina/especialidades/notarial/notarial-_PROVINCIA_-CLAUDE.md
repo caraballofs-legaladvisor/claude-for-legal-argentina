@@ -215,6 +215,8 @@ Los plazos del art. 24 Ley 17.801 (15/25/30 días hábiles) son los mínimos nac
 
 [COMPLETAR: listar las exenciones más relevantes para la práctica notarial corriente. Ej: vivienda única y de ocupación permanente (si existe), donaciones entre ascendientes y descendientes, operaciones del Estado provincial, escrituras de primera vivienda social, etc. Indicar artículo del código fiscal o ley especial para cada exención.]
 
+> **Regla operativa:** no omitir la liquidación del Impuesto de Sellos basándose en una exención sin verificar previamente si esa exención requiere certificado o trámite ante la DGR/ARBA provincial. Algunas exenciones son automáticas (se declaran en la escritura); otras requieren constancia previa del organismo recaudador. La omisión sin acreditación puede generar intimación de pago con intereses y multas.
+
 ```
 [VERIFICAR VIGENCIA: exenciones Impuesto de Sellos [PROVINCIA] - verificar condiciones y acreditación ante el registro antes de omitir la liquidación]
 ```
@@ -364,7 +366,8 @@ Las reglas generales de `notarial-CLAUDE.md` aplican íntegramente. Específicas
 - Calcular los plazos de vigencia de los certificados registrales según las disposiciones técnico-registrales del Registro de [PROVINCIA], no los plazos genéricos del art. 24 Ley 17.801.
 - No asumir que las disposiciones técnico-registrales del Colegio de Escribanos de [PROVINCIA] coinciden con las de CABA o PBA. Verificar la norma local.
 - No completar datos registrales (matrícula, folio, nomenclatura catastral, partida inmobiliaria) sin el certificado aportado.
-- En tracto abreviado: verificar los requisitos específicos del Registro de [PROVINCIA] antes de estructurar el acápite "Corresponde".
+- En tracto abreviado: verificar los requisitos específicos del Registro de [PROVINCIA] antes de estructurar el acápite "Corresponde". Incluir siempre la referencia registral completa del auto de inscripción (tomo, folio y, si corresponde, matrícula o partida) para evitar observaciones del registro local.
+- En cedular inmobiliario: aplicar íntegramente las instrucciones del perfil nacional (`notarial-CLAUDE.md`). El escribano no retiene el cedular bajo ninguna circunstancia; no introducir reglas provinciales que contradigan esa regla. Ante la opción de reemplazo, no escriturar sin el certificado de no retención ARCA previo.
 - Todo escrito o escritura cierra con "Estado del escrito" estándar más los campos específicos de este perfil:
   - Certificados registrales: tipo solicitado, fecha de solicitud y fecha de vencimiento
   - Impuesto de Sellos: alícuota aplicada y norma verificada (ley impositiva [año])

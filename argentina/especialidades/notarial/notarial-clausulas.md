@@ -104,18 +104,33 @@ Yo, el Escribano Autorizante, hago constar: a) Que se solicitaron los
 certificados registrales de dominio e inhibiciones ante el [RPI de CABA /
 RPBA / registro competente], con fecha [fecha], bajo el N° [número], con
 vigencia hasta el día [fecha de vencimiento], dentro del cual se autoriza
-la presente. b) Que se practicó la retención del Impuesto a las Ganancias
-cedular (Ley 27.430) por la suma de [monto o "no corresponde por exención
-de vivienda única, acreditada mediante declaración jurada del vendedor
-agregada como Anexo [letra]"]. c) Que el COTI no aplica a la presente
-operación, en virtud de la abrogación de la Resolución General AFIP 2371
-dispuesta por la Resolución General ARCA 5697/2025 (vigente desde el
-23/05/2025). d) Que se liquidó el Impuesto de Sellos de la jurisdicción
-[CABA / PBA / otra] por la suma de [monto] conforme [norma aplicable].
-e) Que se han cumplido las obligaciones de debida diligencia en materia de
-prevención de lavado de activos conforme la Resolución UIF 242/2023,
-habiendo clasificado al cliente en nivel de riesgo [bajo / medio / alto].
+la presente. b) Que se verificó la situación del vendedor frente al
+Impuesto a las Ganancias cedular (Ley 27.430 - art. 99 inc. b Ley 20.628):
+[OPCIÓN A: el vendedor declara estar exento por tratarse de su única vivienda
+y único inmueble (casa habitación), condición que acredita mediante
+declaración jurada agregada como Anexo [letra]; el escribano no practica
+retención alguna / OPCIÓN B: el vendedor acredita la opción de reemplazo
+mediante certificado de no retención emitido por ARCA, N° [número], vía
+servicio "Transferencia de Inmuebles", agregado como Anexo [letra]; el
+escribano no practica retención alguna / OPCIÓN C: el vendedor no encuadra
+en exención ni en opción de reemplazo; el impuesto cedular del 15% sobre
+el resultado de la venta es de su exclusiva responsabilidad y se liquidará
+en su declaración jurada anual; el escribano no practica retención]. c) Que
+el COTI no aplica a la presente operación, en virtud de la abrogación de la
+Resolución General AFIP 2371 dispuesta por la Resolución General ARCA
+5697/2025 (vigente desde el 23/05/2025). d) Que se liquidó el Impuesto de
+Sellos de la jurisdicción [CABA / PBA / otra] por la suma de [monto] conforme
+[norma aplicable]. e) Que se han cumplido las obligaciones de debida
+diligencia en materia de prevención de lavado de activos conforme la
+Resolución UIF 242/2023, habiendo clasificado al cliente en nivel de riesgo
+[bajo / medio / alto].
 ```
+
+> **Nota:** el escribano NO practica retención del impuesto cedular inmobiliario
+> bajo ninguna de las tres opciones. Ese impuesto recae sobre el vendedor y
+> se liquida en su declaración jurada anual. Ante la opción de reemplazo (OPCIÓN B),
+> no autorizar el acto sin que el vendedor exhiba el certificado de no retención
+> ARCA previo al otorgamiento.
 
 ---
 
@@ -246,7 +261,7 @@ procedimiento de constatación.
 
 ### 5.1 Acápite "Corresponde" por tracto abreviado
 
-**Riesgo:** escritura observable por el registro si no constan los datos del auto judicial de inscripción.
+**Riesgo:** escritura observable por el registro si no constan los datos del auto judicial de inscripción o si falta la referencia a la matrícula o folio registral bajo el cual quedó inscripto el antecedente dominial.
 
 ```
 CORRESPONDE: La presente escritura se otorga en ejercicio del tracto
@@ -256,10 +271,17 @@ Cuenta Particionaria / otro], dictado por el [Juzgado / Tribunal]
 [número y fuero], Secretaría [nombre o número], en los autos caratulados
 "[Carátula completa]", Expediente N° [número], con fecha [fecha del auto],
 inscripto en el [RPI competente] con fecha [fecha de inscripción], bajo
-el Tomo [número], Folio [número], [o: cuya inscripción se tramita en forma
-simultánea a la presente por tracto abreviado, conforme nota registral
-N° [número] de fecha [fecha]].
+el Tomo [número], Folio [número], Matrícula N° [número si el registro
+usa folio real] [o: cuya inscripción se tramita en forma simultánea a
+la presente por tracto abreviado, conforme nota registral N° [número]
+de fecha [fecha]].
 ```
+
+> **Nota:** verificar que el auto de inscripción figure con todos los datos
+> exigidos por el registro local (tomo, folio y, según el sistema del RPI,
+> matrícula o número de partida). La omisión de la referencia registral
+> completa es causal frecuente de observación. Si la inscripción es simultánea,
+> consignar la nota registral que habilita el tracto.
 
 ---
 
