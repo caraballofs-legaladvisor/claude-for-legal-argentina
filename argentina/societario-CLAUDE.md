@@ -132,9 +132,9 @@ sobre la obligación de notificación en operaciones de M&A.
 Cargar junto con este perfil en las instrucciones del Project para funcionamiento completo:
 
 - `argentina/ejemplos-societario.md` - checklist de due diligence en compraventa de empresa mediana, estructura de pacto de accionistas con análisis de ejecutabilidad, y comparativo de tipos societarios. El sistema lo consulta automáticamente en operaciones de M&A, due diligence y constitución de sociedades.
-- `argentina/red-flags-contratos.md` - lista de alertas para revisión de contratos. El sistema lo aplica automáticamente ante cualquier contrato aportado (SPAs, pactos de accionistas, NDAs), según activación definida en `argentina/CLAUDE.md`.
+- `argentina/contratos/red-flags.md` - lista de alertas para revisión de contratos. El sistema lo aplica automáticamente ante cualquier contrato aportado (SPAs, pactos de accionistas, NDAs), según activación definida en `argentina/CLAUDE.md`.
 
-Sin `ejemplos-societario.md` cargado: el sistema opera sin checklist estructurado de due diligence. Sin `red-flags-contratos.md` cargado: el análisis de contratos societarios aplica solo las red flags del CLAUDE.md general.
+Sin `ejemplos-societario.md` cargado: el sistema opera sin checklist estructurado de due diligence. Sin `contratos/red-flags.md` cargado: el análisis de contratos societarios aplica solo las red flags del CLAUDE.md general.
 
 ---
 
@@ -471,6 +471,6 @@ Alertas específicas:
 
 ---
 
-*Última actualización: mayo 2026*
+*Última actualización: junio 2026*
 *Normativa base: LGS (Ley 19.550), Ley 27.349 (SAS), Ley 26.831 (Mercado de Capitales), Ley 27.442 (Defensa de la Competencia), Ley 11.867 (Fondo de Comercio), Ley 27.742 Tít. VII (RIGI) + Dec 749/2024*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
