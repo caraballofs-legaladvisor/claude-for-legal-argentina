@@ -76,8 +76,6 @@ The commands above run when you invoke them — for when you're working a matter
 The default allowlist ships with the community registries we've reviewed pre-configured. Edit `references/allowlist-default.yaml` in the repo, or your per-install allowlist at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml`, to add, remove, or switch between restrictive and permissive modes.
 
 - **lpm-skills** — Legal project management (Scott Margetts / LegalOps Consulting) — `github.com/legalopsconsulting/lpm-skills`
-- **Lawvable / awesome-legal-skills** — Curated list of AI agent skills for legal work — `github.com/lawvable/awesome-legal-skills`
-- **Lawvable / agent-skills** — Curated collection of agent skills for legal work — `github.com/lawvable/agent-skills`
 - Add your own via `/legal-builder-hub:registry-browser` or by editing the allowlist
 
 ## How it learns

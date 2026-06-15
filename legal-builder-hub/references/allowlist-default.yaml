@@ -15,13 +15,9 @@ mode: restrictive    # restrictive (fail-closed, default) | permissive (flag-and
 
 registries:
   - https://github.com/legalopsconsulting/lpm-skills
-  # Lawvable — launch partner, two curated registries under the lawvable GitHub org.
-  - https://github.com/lawvable/awesome-legal-skills
-  - https://github.com/lawvable/agent-skills
 
 publishers:
   - legalopsconsulting
-  - lawvable
 
 connectors: []
   # Empty in restrictive mode means community skills declaring ANY MCP
