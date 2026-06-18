@@ -506,6 +506,7 @@ Al inicio de cada consulta, el sistema identifica la rama del derecho y el tipo 
 | `tributario-CLAUDE.md` | AFIP, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributario |
 | `penal-CLAUDE.md` | imputado, procesado, defensa penal, querella, medidas cautelares penales |
 | `familia-CLAUDE.md` | divorcio, alimentos, cuidado personal, filiación, adopción, violencia familiar |
+| `consumo-CLAUDE.md` | relación de consumo, LDC, COPREC, daño directo, daño punitivo, comercio electrónico, medicina prepaga, telecomunicaciones |
 | `concursos-CLAUDE.md` | concurso preventivo, quiebra, verificación de créditos, APE, cramdown |
 | `plazos-SKILL.md` | cómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLO |
 | `diagnostico-SKILL.md` | diagnóstico previo de cualquier escrito aportado antes de modificarlo |
@@ -549,6 +550,7 @@ argentina/
   contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
   administrativo-CLAUDE.md          # Perfil derecho administrativo
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
+  consumo-CLAUDE.md                  # Perfil derecho del consumidor (LDC)
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
   laboral-CLAUDE.md                 # Perfil derecho del trabajo (LCT)
