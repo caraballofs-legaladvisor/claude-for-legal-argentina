@@ -5,3 +5,5 @@
 /.claude/
 __pycache__/
 *.pyc
+argentina/legal.local.md
+argentina/project-*-instrucciones.md
