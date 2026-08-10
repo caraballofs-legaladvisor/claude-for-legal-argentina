@@ -5,3 +5,6 @@
 /.claude/
 __pycache__/
 *.pyc
+
+# Typefully config (contains API key)
+.typefully/
