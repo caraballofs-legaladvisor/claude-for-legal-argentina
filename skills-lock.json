@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "typefully": {
+      "source": "typefully/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/typefully/SKILL.md",
+      "computedHash": "b2ea12e09de67a4ba2ad2931350b854e8cac8d2015600ea84963d457b5aa55ce"
+    }
+  }
+}
