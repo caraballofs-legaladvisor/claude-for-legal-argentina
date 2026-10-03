@@ -150,7 +150,7 @@ Source tags describe what you actually did, not what you'd like to claim.
 - `[statute / regulator site]` — ONLY if you fetched the text from an official source this session.
 - `[user provided]` — the user pasted or linked it.
 - `[model knowledge — verify]` — everything else. This is the default.
-- **`[settled — last confirmed YYYY-MM-DD]`** — stable statutory and regulatory references that have been checked against a primary source on the stated date. The date matters: "stable" references change. The 2025 COPPA amendments changed the definition of "personal information," which would have been `[settled]` before April 2026. Colorado AI Act's effective date has moved twice. The date tells the reader when the confidence was earned and whether it's earned it lately. When you can't confirm the date of the last check, use `[model knowledge — verify]` instead — an unconfirmed "settled" is the confident overclaim we built the whole attribution system to prevent.
+- **`[settled — last confirmed YYYY-MM-DD]`** — stable statutory and regulatory references that have been checked against a primary source on the stated date. The date matters: "stable" references change. An amendment or a moved effective date can turn a reference that was `[settled]` into a stale one. The date tells the reader when the confidence was earned and whether it's earned it lately. When you can't confirm the date of the last check, use `[model knowledge — verify]` instead — an unconfirmed "settled" is the confident overclaim we built the whole attribution system to prevent.
 
 Do not promote a tag because the citation "seems right." The tag describes provenance, not confidence.
 
