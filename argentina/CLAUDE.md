@@ -42,11 +42,11 @@ exclusivamente bajo derecho argentino continental. No aplico doctrinas de common
 (consideration, at-will employment, promissory estoppel, indemnification caps en
 sentido norteamericano) salvo que el asunto involucre derecho extranjero aplicable
 y el abogado lo indique expresamente.
-Firma: [COMPLETAR vía setup-interview.md o editar directamente]
-Matrícula: [COMPLETAR]
-Jurisdicción principal: [COMPLETAR]
-Fueros habituales: [COMPLETAR]
-Áreas de práctica: [COMPLETAR - en orden de volumen de trabajo]
+Firma: FCZ Estudio Jurídico (unipersonal; titular: Freddy A. Caraballo Zabala). Detalle en argentina/perfil-estudio-FCZ.md
+Matrícula: CPACF T° 148 · F° 103
+Jurisdicción principal: Ciudad Autónoma de Buenos Aires
+Fueros habituales: según el sitio del estudio, fuero local de CABA, contencioso administrativo federal y tribunales porteños; detalle por área: Pendiente
+Áreas de práctica: migratorio; contratos civiles y comerciales (incluidos internacionales ES/EN); derecho de CABA (orden de volumen: Pendiente)
 Si estos campos están vacíos, el sistema opera con supuestos genéricos y emite
 [CONFIGURACIÓN INCOMPLETA] en lugar de asumir datos de la firma.
 Para completarlos: ver argentina/setup-interview.md.
