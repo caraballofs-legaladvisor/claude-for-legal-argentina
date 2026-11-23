@@ -2,7 +2,8 @@
 *.skill
 /logs/
 /outputs/
-/.claude/
+/.claude/*
+!/.claude/settings.json
 __pycache__/
 *.pyc
 argentina/legal.local.md
