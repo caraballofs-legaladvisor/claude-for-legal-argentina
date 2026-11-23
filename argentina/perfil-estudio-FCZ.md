@@ -27,7 +27,7 @@ Contexto del estudio para el sistema. Cada dato indica su fuente:
 - Socios, secretarios y asistentes: ninguno. El estudio es unipersonal por el momento; el titular avisará cuando cambie. [Titular]
 - Quién responde mensajes de clientes y quién decide: Pendiente. El sitio dice "te respondo personalmente en menos de 24 horas hábiles".
 - CUIT del titular: informado por el titular. Se guarda fuera del repositorio, que es público, en el CLAUDE.md de usuario del entorno cloud. Si no figura en el contexto de la sesión, pedirlo; no suponerlo.
-- Domicilio electrónico para escritos: Pendiente.
+- Domicilio electrónico para escritos: abgfreddyantonio@caraballozabala.com.ar. [Titular]
 
 ## 3. Especialidad y servicios
 
